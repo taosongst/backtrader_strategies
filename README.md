@@ -1,5 +1,5 @@
 # backtrader_strategies
-In this project we use backtrader, a open platform that is suitable for designing and testing trading strategies.  
+In this project we use [backtrader](https://www.backtrader.com/), a open platform that is suitable for designing and testing trading strategies.  
 
 We implemented three strategies: momentum with simple moving average, dual thrust, rebalacing strategy. 
 
