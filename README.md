@@ -9,5 +9,5 @@ Rebalacing strategy is a strategy that usually used to manage a large porfolio. 
 
 Dual thrust strategy is also a kind of momentum strategy. We use the daily high/low data of past several days to set buy/sell signal. For detail explanation, see this [nice explaination](https://medium.com/@FMZ_Quant/dual-thrust-trading-strategy-2cc74101a626). 
 
-We build these strategies, optimize them, and test again buy and hold method. We also compute some metrics including Sharpe ratio. 
+We build these strategies, optimize them, and test again buy and hold method. We also compute some metrics including Sharpe ratio. Note that our purpose in this project is to get familiar with this platform other than finding a winning strategy. 
 
