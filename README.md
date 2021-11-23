@@ -16,7 +16,7 @@ We did a few things in this project:
 2. We take a closer look at momentum strategies. More specifically we:
 - Define momentum effect of each stock inside a 1Y period using the maximal return, minimal return and std when varing the two hyperparameters (long period/short period) in the momentum strategies. Then we categorize them into three categories: profitable using momentum strategy with low std, lossing money using momentum strategy with low std, the rest. This is what we defined as momentum effect and is the main target we want to build a model for. See [this file](https://github.com/taosongst/backtrader_strategies/blob/main/momentumeEffects_multiprocessing.py)
 - To build a model to predict these we download some fundamental and trading data of 1000+ stocks from yahoo finance and EOD API. We extract some features including the momentum effect of the previous year, std, pe, ps, revenue growth, correlation with overall market. See [this file](https://github.com/taosongst/backtrader_strategies/blob/main/EOD%20Data.ipynb)
-- We use random forest and SVM to predict momentum effect. Using features selection we were able to get, in the best case scenerio, a 0.51 precision on val set. See [this file](https://github.com/taosongst/backtrader_strategies/blob/main/TreeModels.ipynb)
+- We use random forest and Xgboost to predict momentum effect. Using features selection we were able to get, in the best case scenerio, a 0.51 precision on val set. See [this file](https://github.com/taosongst/backtrader_strategies/blob/main/TreeModels.ipynb)
 3. To be done:
 - We want to extend this method to explore momentum effects across different periods.
 - Use the same methology to exam other strategies. 
